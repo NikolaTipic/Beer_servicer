@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Beer_Servicer",
+    "name": "Beer Servicer",
     "slug": "Beer_Servicer",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,6 +18,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.beerServicer",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0d4d5a68-ff8b-476f-adc2-11dc9a00efb2"
+      }
     }
   }
 }
